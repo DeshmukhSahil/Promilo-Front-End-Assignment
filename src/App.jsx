@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Home from './pages/Home.jsx';
 import Products from './pages/Products.jsx';
+import About from './pages/About.jsx';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
       </Routes>
     </>
